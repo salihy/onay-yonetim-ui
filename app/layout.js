@@ -7,8 +7,8 @@ import "leaflet/dist/leaflet.css";
 import "./scss/app.scss";
 
 export const metadata = {
-  title: 'Dashcode Next Js',
-  description: 'Dashcode is a popular dashboard template.',
+  title: 'Veri Merkezi Onay Yonetim Sistemi',
+  description: '',
 }
 
 import ThemeProvider from "./theme-provider"

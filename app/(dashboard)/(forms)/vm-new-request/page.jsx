@@ -231,7 +231,7 @@ const InputlayoutPage = () => {
             prepend={<Icon icon="heroicons-outline:key" />}
             merged
           />
-          <label className="form-label" for="range-picker">
+          <label className="form-label">
             Baslangic Bitis Zamani
           </label>
           <div className="grid grid-cols-2 gap-5">
@@ -264,21 +264,21 @@ const InputlayoutPage = () => {
               key={index}
             >
               <Textinput
-                label="First Name"
+                label="Ad Soyad"
                 type="text"
                 id={`name${index}`}
-                placeholder="First Name"
+                placeholder="Ad Soyad"
                 register={register}
-                name={`test[${index}].firstName`}
+                name={`test[${index}].name`}
               />
 
               <Textinput
-                label="last Name"
+                label="Tckn"
                 type="text"
-                id={`name2${index}`}
-                placeholder="Last Name"
+                id={`tckn${index}`}
+                placeholder="Tckn"
                 register={register}
-                name={`test[${index}].lastName`}
+                name={`test[${index}].tckn`}
               />
 
               <div className="flex justify-between items-end space-x-5">
@@ -286,7 +286,7 @@ const InputlayoutPage = () => {
                   <Textinput
                     label="Phone"
                     type="text"
-                    id={`name3${index}`}
+                    id={`phone${index}`}
                     placeholder="Phone"
                     register={register}
                     name={`test[${index}].phone`}
